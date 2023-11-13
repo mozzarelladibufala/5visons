@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>benvenuto</title>
+    <link rel="stylesheet" href="benvenuto.css">
+
+</head>
+<body>
+
+
+
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <style>
+      #follow-text {
+        position: fixed;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="follow-text"></div>
+  
+    <style>
+        #follow-text {
+          position: fixed;
+          font-size: 30px;
+        }
+      </style>
+
+    <script>
+      document.addEventListener("mousemove", function(event) {
+        var followText = document.getElementById("follow-text");
+        followText.style.left = event.pageX + "px";
+        followText.style.top = event.pageY + "px";
+        followText.textContent = "BENVENUTO";
+      });
+    </script>
+
+
+
+  </body>
+  </html>
+  
+    
+</body>
+</html>

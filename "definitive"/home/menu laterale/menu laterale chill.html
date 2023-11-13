@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="test.css">
+  
+  <title>Document</title>
+</head>
+<body>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <style>
+          body {
+              overflow-x: hidden;
+              margin: 0;
+          }
+          
+          .menu {
+              height: 100vh;
+              width: 250px;
+              position: fixed;
+              top: 0;
+              left: -250px;
+              background-color: #f2f2f2;
+              transition: all 0.3s ease;
+          }
+          
+          .menu.open {
+              left: 0;
+          }
+          
+          .menu .close-btn {
+              text-align: right;
+              padding: 10px;
+          }
+          
+          .menu ul {
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+          }
+          
+          .menu ul li {
+              padding: 10px;
+              border-bottom: 1px solid #ccc;
+          }
+          
+          .menu ul li:last-child {
+              border-bottom: none;
+          }
+          
+          .menu ul li:hover {
+              background-color: #e6e6e6;
+          }
+          
+          .menu-btn {
+              position: fixed;
+              top: 20px;
+              left: 20px;
+              font-size: 20px;
+              cursor: pointer;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="menu">
+          <div class="close-btn">&#10005;</div>
+          <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+          </ul>
+      </div>
+      <div class="menu-btn">&#9776;</div>
+  
+      <script>
+          document.querySelector('.menu-btn').addEventListener('click', function() {
+              document.querySelector('.menu').classList.add('open');
+          });
+  
+          document.querySelector('.close-btn').addEventListener('click', function() {
+              document.querySelector('.menu').classList.remove('open');
+          });
+      </script>
+  </body>
+  </html>
+
+</body>
+</html>
+
+

@@ -1,0 +1,202 @@
+body {background-color: #1B5C60;}
+#search-icon {height:60px;margin-left: 80px;width:500px ;}
+#logo {height:40px; margin-left: 20px ; }
+li {color: rgb(255, 255, 255);
+font-family: 'Arial';
+font-size: 14px;
+list-style:none ;
+margin-left: 80px; }
+
+#navbar {display: flex; align-items: center; position: absolute; background-color: #02373a ;left: 80px;;right: 80px; border-color: #000000;;}
+
+#navlinks {display: flex}
+
+#navbar {margin-right: 20px;margin-left: 20px; margin-top: 16px; height: 55px; border-radius: 50px}
+
+#search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;}
+
+li {color: white; margin-top: 15px; }
+
+#sminky {position: absolute; top: 45px; right: 30px;  }
+#max { top: 45px; right: 60px; position: absolute; }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    min-height: 190px ;
+    left: -95px; 
+    min-width: 145px;
+    background-color: #02373a;
+    padding: 10px;
+    border: 1px solid grey;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    
+  }
+  
+  .dropdown-contentj {
+    color: black;
+    padding: 6px 0;
+    text-decoration: none;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    
+    display: block;
+  }
+
+#video {
+position: absolute;
+width: auto;
+height: 525px;
+top: 100px;
+border-radius: 15px;
+
+}
+
+#notifiche {
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    top: 675px;
+    left:29%
+  }
+  
+  #notifiche:hover {
+    background: rgba(170, 170, 170, 0.062);
+    transition: 0.5s;
+  }
+  
+  #notifiche svg {
+    color: #fff;
+  }
+
+  #user {
+position: absolute;
+width: 50px;
+height: auto;
+top:675px ;
+  }
+
+#descrizione {
+    position: absolute;
+    font-size: 30px;
+    top:615px ;
+      }
+
+
+#nome-utente {
+    position: absolute;
+    font-size: 20px;
+    left:5%;
+    top:665px ;  }
+
+ #iscritti {
+    position: absolute;
+    font-size: 15px;
+    left:5%;
+    top:695px ;  }
+
+
+
+
+
+
+    #subscribe {
+        position: absolute;
+        display: inline-block;
+        padding: 12px 24px;
+        border: none;
+        font-size: 16px;
+        background-color: inherit;
+        border-radius: 100px;
+        font-weight: 600;
+        color: #ffffff40;
+        box-shadow: 0 0 0 2px #ffffff20;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+        top:682px;
+        left:20%;
+      }
+      
+      #subscribe span:last-child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        background-color: #02373a;
+        border-radius: 50%;
+        opacity: 0;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+      }
+
+      #subscribe span:first-child {
+        position: relative;
+        z-index: 1;
+      }
+      
+         #subscribe:hover {
+        box-shadow: 0 0 0 5px #02373a39;
+        color: #ffffff;
+      }
+      
+      #subscribe:active {
+        scale: 0.95;
+      }
+      
+         #subscribe:hover span:last-child {
+        width: 150px;
+        height: 150px;
+        opacity: 1;
+      }
+      
+      #miniatura-1  { 
+        position: absolute;
+        border-radius: 15px;
+        width:250px;height: auto;
+       left:70%;
+       top:12%}
+
+
+      #commenti  { position: absolute;background-color: #02373a;left: 95px ; right: 1200px;top: 725px;border-radius:20px;}
+
+      body {
+        overflow-y: scroll;
+     }
+
+     #commento-1 { position: absolute;
+       top: 790px
+     }
+     
+     #commento-2 { position: absolute;
+        top: 830px;
+     }
+
+     #commento-3 { position: absolute;
+        top: 870px
+     }
+
+     #commento-4 { position: absolute;
+        top: 910px
+     }
+
+
+
+
+     
